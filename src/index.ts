@@ -14,6 +14,9 @@ taskManager.updateTask(1, 'updateTask1');
 // Delete a task
 taskManager.deleteTask(3);
 
+// Complete a task
+taskManager.completeTask(2);
+
 const tasks = taskManager.getAllTasks();
 
 console.log(tasks);

@@ -42,6 +42,15 @@ class TaskManager {
     getAllTasks(): Task[] {
 	return this.tasks;
     }
+
+    completeTask(id: number) {
+	const task = this.getTaskById(id);
+	if(!task) {
+	    console.log('Task with ${id} does not exist');
+	} else {
+	    task.completed = true;
+	}
+    }
 }
 
 export default TaskManager;
