@@ -19,4 +19,5 @@ taskManager.completeTask(2);
 
 const tasks = taskManager.getAllTasks();
 
-console.log(tasks);
+// Print all tasks
+taskManager.printTasks(tasks);

@@ -51,6 +51,14 @@ class TaskManager {
 	    task.completed = true;
 	}
     }
+
+    printTasks(tasks: Task[]) {
+	console.log('-----------------------------------');
+	tasks.map(task => {
+	    console.log(`id: ${task.id} | description: ${task.description} | completed: ${task.completed}`);
+	});
+	console.log('-----------------------------------');
+    }
 }
 
 export default TaskManager;
