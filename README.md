@@ -27,4 +27,4 @@ $  tsc && node dist/index.js
 
 Example
 
-![project](https://github.com/knaiskes/TaskManager/assets/6069054/b53c7db8-ac6c-4051-a559-342e10956165)
+![project](https://github.com/knaiskes/TaskManager/assets/6069054/94c13554-901b-4337-a8d4-4c871537cd7d)
